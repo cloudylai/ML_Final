@@ -11,7 +11,7 @@ Our general framework can be seen below. A embedding layer is used to obtain pro
 
 ## Result
 
-![image2](https://github.com/cloudylai/ML_Final/blob/master/images/table_4.png)  
+![image2](https://github.com/cloudylai/ML_Final/blob/master/results/table_4.png)  
 
 ## Reference
 ### Paper:  
