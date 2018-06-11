@@ -1,0 +1,2 @@
+unzip model_bidaf4_word_gensim5,4,6_em128,128,32_h64_m64_cx400_qu40_b8_13.zip
+python3 bidaf_test_4.py $1 $2 $3 bidaf4_word_gensim5,4,6_em128,128,32_h64_m64_cx400_qu40_b8_13 embedding_gensim_word_w2v_em128_w21_mc3_skip_all_5.bin embedding_gensim_char_w2v_em128_w31_mc1_skip_all_4.bin embedding_gensim_pos_w2v_em32_w21_mc1_skip_all_6.bin dict.txt.big.txt
