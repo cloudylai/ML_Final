@@ -7,7 +7,7 @@ This repository is a duplication of the final team project, Delta Chinese QA, of
 ## Method
 Our general framework can be seen below. A embedding layer is used to obtain proper representation of questions and contexts in both word-level and character-level. Encoder layers are used to extract the semantic features of questions and contexts in sentence-level. Interaction layer includes designed attention structure to catch the relation between questions and contexts. Answer layer is a pointer network which is used to point the right positions of answers. Specifically, in this project, we utilize two popular models in SQuAD ([link](https://rajpurkar.github.io/SQuAD-explorer/)): BiDAF ([link](https://arxiv.org/abs/1611.01603)) and R-NET ([link](https://www.microsoft.com/en-us/research/publication/mrc/)) with some adjustments to improve their performance in our task. 
 
-![image1](https://github.com/cloudylai/ML_Final/blob/master/images/framework_1.png =450x375)  
+![image1](https://github.com/cloudylai/ML_Final/blob/master/images/framework_1.png)  
 
 ## Result
 The tables below demonstrate the scores of BiDAF and R-NET, in particular, we use F1-scores to measure the overlay between the predicted intervals and the true intervals of answers. The results show that standard BiDAF and R-NET achieve the similar scores in testing set. Provided with POS-tagging information, we significantly improve the performance of BiDAF. 
