@@ -10,7 +10,7 @@ Our general framework can be seen below. A embedding layer is used to obtain pro
 ![image1](https://github.com/cloudylai/ML_Final/blob/master/images/framework_1.png)  
 
 ## Result
-The tables below demonstrate the scores of BiDAF and R-NET; in particular, we use F1-scores to measure the overlay between the predicted intervals and the true intervals of answers. The results show that standard BiDAF and R-NET achieve the similar scores in testing set. We also try many adjustments to R-NET and BiDAF. In our experiments, provided with POS-tagging information, POS BiDAF improve the performance of BiDAF significantly. 
+The tables below demonstrate the scores of BiDAF and R-NET; in particular, we use F1-scores to measure the overlay between the predicted intervals and the true intervals of answers. The results show that standard BiDAF and R-NET achieve the similar scores in testing set. We also try many adjustments to R-NET and BiDAF. In our experiments, provided with POS-tagging information, POS BiDAF outperforms BiDAF significantly. 
 ![image2](https://github.com/cloudylai/ML_Final/blob/master/results/table_4.png)  
 
 ![image3](https://github.com/cloudylai/ML_Final/blob/master/results/table_7.png)  
